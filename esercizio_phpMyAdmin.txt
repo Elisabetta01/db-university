@@ -1,4 +1,4 @@
-QUERY CON SELECT:
+QUERY CON SELECT
 
 1. Selezionare tutti gli insegnanti
 SELECT * FROM teachers;
@@ -25,7 +25,7 @@ SELECT * FROM exams WHERE MONTH(date) = 06 OR MONTH(date) = 07;
 SELECT COUNT(id) FROM students;
 
 
-QUERY CON GROUP BY:
+QUERY CON GROUP BY
 
 1. Contare i corsi raggruppati per cfu
 SELECT COUNT(id), cfu FROM courses GROUP BY cfu;
